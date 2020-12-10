@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gestión de personas en la Web</title>
+</head>
+<body>
+	<h1>Ingresar Usuario</h1>
+	<form action="/BojorqueMacancelaMartinExamen/CrearUsuario" method="post">
+		<label for="id">Cedula: </label>
+		<input type="text" name="cedula" placeholder="ingrese la cedula..."/>
+		<br/>
+		
+		<label for="nombre">Nombres: </label>
+		<input type="text" name="nombres" placeholder="ingrese los nombres..."/>			
+		<br/>
+		
+		<label for="apellido">Apellidos: </label>
+		<input type="text" name="apellidos" placeholder="ingrese los apellidos..."/>
+		<br/>
+		
+		<label for="clave">Contraseña: </label>
+		<input type="password" name="clave" placeholder="ingrese su contraseña"/>
+		<br/>
+		
+		<label for="correo">Correo: </label>
+		<input type="text" name="correo" placeholder="ingrese su correo"/>
+		<br/>
+		<label for="cantidad">Numero de Telefonos: </label>
+		<input type="text" name="cantidad" placeholder="ingrese la cantidad"/>
+		<br/>
+		
+		<input type="submit" value="Aceptar"/>
+		<input type="reset" value="Cancelar"/>
+	</form>
+	
+</body>
+</html>
